@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="1.png" alt="User Avatar">
+            <h3>Rifha Reinda</h3>
+        </div>
+        <ul class="menu">
+            <li class="active"><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-info-circle"></i> About</li>
+            <li><i class="fas fa-book"></i> Course</li>
+            <li><i class="fas fa-chalkboard-teacher"></i> Teacher</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <header class="header">
+            <div class="search-bar">
+                <input type="text" placeholder="Search New Courses">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="header-icons">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-user-circle"></i>
+                <i class="fas fa-sun"></i>
+            </div>
+        </header>
+
+        <!-- Timeline and Recently Accessed Items -->
+        <div class="dashboard-sections">
+            <!-- Timeline Section -->
+            <section class="timeline">
+                <div class="timeline-header">
+                    <h2>Timeline</h2>
+                    <div class="header-icons">
+                        <button><i class="fas fa-clock"></i></button>
+                        <button><i class="fas fa-sort"></i></button>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <p class="date">Monday, 18 November 2024</p>
+                    <div class="task">
+                        <i class="fas fa-file-alt"></i>
+                        <div class="task-info">
+                            <strong>Report Progress Final Project is due</strong>
+                            <span>Pemrograman Web</span>
+                        </div>
+                        <span class="time">23:59</span>
+                    </div>
+                    <button class="add-btn">Add submission</button>
+                </div>
+            </section>
+
+            <!-- Recently Accessed Items -->
+            <section class="recent-items">
+                <h2>Recently accessed items</h2>
+                <div class="item">
+                    <i class="fas fa-file-alt"></i>
+                    <div class="item-info">
+                        <strong>LATIHAN PRAKTIKUM 5</strong>
+                        <span>Analisis dan Desain Berorientasi Objek</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-file-pdf"></i>
+                    <div class="item-info">
+                        <strong>MODUL PRAKTIKUM</strong>
+                        <span>Analisis dan Desain Berorientasi Objek</span>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-file-alt"></i>
+                    <div class="item-info">
+                        <strong>Tugas 1 Praktikum</strong>
+                        <span>Pemrograman Berorientasi Objek</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
